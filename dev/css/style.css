@@ -1,0 +1,219 @@
+/* Page Sectioning, Resets, General Styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+  margin:0;
+  padding:0;
+  color: #3e3e3e;
+} 
+
+a {text-decoration: none;}
+
+.sidebar-container, .main-content-container {
+  min-height:800px;
+}
+
+.col-xs-10{
+  padding:0;
+}
+
+/* Sidebar */
+
+.sidebar-container {
+  background: #172f49;
+}
+
+.sb-nav {
+  margin-top: 20px;
+}
+
+.logo {
+  padding-top:15px;
+  width: 165px;
+}
+
+.sb-nav li {
+  list-style: none;
+  padding-top:11px;
+  padding-bottom:11px;
+}
+
+.sb-item-text {
+  padding-left: 12px;
+  position:relative;
+  top:2px;
+  font-size: 14px;
+  color: #bfd3eb;
+  font-weight:300;
+  letter-spacing: 1px;
+  display:inline-block;
+  height:25px;
+}
+
+.sb-item-text:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.sb-item-selected {
+  color: white;
+}
+
+.sb-cta-text {
+  color: #0198cd;
+}
+
+.sb-nav img {
+  width:27px;
+}
+
+
+
+/* Main Content */
+
+.main-content-container {
+  background: #f2f5fa;
+}
+
+/* MC - Navbar */
+
+.navbar {
+  background: #e3eaf2;
+  min-height: 38px;
+  max-height: 40px;
+  padding:0;
+  border-radius: 0;
+  margin-bottom:50px;
+}
+
+.navbar-buttons, .navbar-options {
+  float:left;
+}
+
+.navbar-buttons button {
+  width:50px;
+  height:40px;
+  background: #476a90;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  top: -1px;
+}
+
+.navbar-buttons .search {
+  background-image:url(../img/search.jpg);
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position: 11px 7px;
+  border-right: 1px solid #e3eaf2;
+}
+
+.navbar-buttons .plus {
+  background-image:url(../img/plus.jpg);
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position: 13px 7px;
+  left:-3px;
+  border-right: 1px solid #e3eaf2;
+}
+
+.navbar-buttons .timeclock {
+  left:-7px;
+  background-image:url(../img/time.jpg);
+  background-size: 26px;
+  background-repeat: no-repeat;
+  background-position: 13px 7px;
+}
+
+.navbar-buttons {
+  margin-left: 390px;
+}
+
+.navbar-options {
+  margin-left: 230px;
+}
+
+.navbar-options .user, .navbar-options .help {
+  float:left;
+  padding:7px 11px 0 11px;
+  border-left:1px solid #bfd1e7;
+  height:40px;
+}
+
+.navbar-options .user-name, .navbar-options .user-help {
+  padding-left: 9px;
+}
+
+.navbar-options img {
+  width: 22px;
+}
+
+
+/* Main Content Area */
+
+.main-content-area {
+  margin-left:20px;
+}
+
+.square {
+  width: 100px;
+  height:100px;
+  background: darkblue;
+}
+
+
+/* Trial Warning Box */
+
+.trial-warning-container {
+  border: 1px solid #efb328;
+  padding:15px;
+}
+
+.trial-warning-container img {
+  width: 20px;
+}
+
+.trial-warning-container .trial-txt {
+  margin-left:15px;
+}
+
+/* CTA Boxes */
+
+.cta-boxes {
+  margin-top: 50px;
+}
+
+.cta-box-img {
+  width:130px;
+  position:relative;
+  left:16px;
+}
+
+.cta-single-box {
+  background: #fff;
+  padding: 40px;
+  margin-right:40px;
+}
+
+.cta-title, .cta-caption {
+  text-align: center;
+}
+
+.cta-title {
+  font-size:17px;
+  margin-top:20px;
+}
+
+.cta-caption {
+  margin-top:15px ;
+}
+
+.remove {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: none;
+  border:1px solid #e3e3e3;
+  border-radius: 5px
+}
+
+
+
